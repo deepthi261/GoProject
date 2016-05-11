@@ -9,7 +9,7 @@ import (
 	"strings"
 )
 
-const BUCKET_NAME = "gotraining-1271.appspot.com"
+const BUCKET_NAME = "deepthi-thotakura.appspot.com"
 
 // Saves the given file for the given name and content under the username.
 func Store(req *http.Request, userName, fileName string, file io.Reader) error {
